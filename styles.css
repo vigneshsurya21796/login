@@ -1,0 +1,106 @@
+*{
+
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'IBM Plex Sans Arabic', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: 100;
+
+}
+
+body{
+  background-color:#40739e;
+}
+
+.inputlabel{
+  color: white;
+  padding-bottom: 7px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.inputelemnt input[type="email" i] {
+   position: relative;
+   height: 35px;
+   width: 320px;
+   border-radius: 3px;
+   border: none;
+
+}
+
+.inputname{
+  position: absolute;
+  top: 160px;
+  left: 350px;
+  background-image: linear-gradient(to top left. white 50%,pink 50%);
+}
+
+ .password{
+   position: absolute;
+   top: 240px;
+   left: 350px;
+
+}
+
+
+.passwordelement input[type="password" i] {
+   position: relative;
+   height: 35px;
+   width: 320px;
+   border-radius: 3px;
+   border: none;
+   
+}
+
+
+.signin{
+    display: flex;
+    position: absolute;
+    top: 310px;
+    left: 350px;
+    margin-top: 8px;
+
+}
+
+.buttonelement{
+     margin-right: 20px;
+     border: none;
+     height: 30px;
+     width: 85px;
+     border-radius: 3px;
+     background-color: #00a8ff;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     box-shadow: 0 0 5px 0px black;
+}
+
+.buttonelement:hover{
+    background-color: black;
+}
+
+
+.forgotpassword{
+     margin-top: 3px;
+     opacity: 0.5;
+     color: white;
+     font-size: 12px;
+
+}
+.headerlast{
+   display: flex;
+   font-size: 10px;
+
+}
+
+.header{
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    color: white;
+}
+.link{
+     color:#00a8ff;
+}
